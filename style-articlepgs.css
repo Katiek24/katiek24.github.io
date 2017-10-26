@@ -1,0 +1,213 @@
+/*all pages*/
+
+
+a.class1:link {
+    color: black;
+    text-decoration: none;
+}
+
+a.class1:visited {
+    color: black;
+}
+
+a.class1:hover {
+    color: gray;
+}
+
+a.class1:active {
+    color: black;
+}
+
+.class1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 22px;
+	color: black;
+	list-style-type: none;
+	padding: 20px; 
+}
+
+
+body {
+	background-color: rgba(0,75,150,0.4);
+}
+
+
+/* front page */
+
+h1 {
+    font-family: "Shadows Into Light", sans-serif;
+    font-size: 200px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.front-background {
+	    background-image: url("https://user-images.githubusercontent.com/32267807/31503215-c1883d5e-af77-11e7-80ae-2ef80df1ad84.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: right;  
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: black;
+}
+
+ul {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 32px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+	line-height: 50px;
+	
+}
+
+
+/* posts */
+	
+.h1-secondary {
+	font-family: "Shadows Into Light", sans-serif;
+    font-size: 75px;
+    color: rgba(50,15,15,1);
+    text-align: center;
+    padding: 25px;
+    background-image: url("https://user-images.githubusercontent.com/32267807/31819957-a9b87e9c-b5a7-11e7-836c-f118a4877e8d.jpg");
+   
+}
+
+h4 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: 75;
+	color: rgb(50,50,50);
+	text-align: center;
+}
+
+.p-1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	margin: 100px;
+    border-radius: 10px;
+}
+
+a.class2:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a.class2:visited {
+    color: purple;
+}
+
+a.class2:hover {
+    color: gray;
+}
+
+a.class2:active {
+    color: black;
+}
+
+.class2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+
+body {
+	background-color: rgba(0,75,150,0.4);
+}
+
+
+
+.post-images {
+ 	max-height: 500px;
+	margin-left: 65px;
+	padding: 0px;
+	border: 20px solid black;
+
+ }
+ 
+#lists {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: white; 
+	margin: 100px;
+    padding: 30px;
+  	border:20px solid black;
+}
+
+
+/* gallery */
+
+.landscape {	
+	margin: 40px;
+	max-width: 800px;
+	max-height: 400px;
+	padding: 0px;
+	border: 20px solid black;
+
+}
+
+.portrait {
+	margin-left: 125px;
+	margin-right: 60px;
+	max-height: 400px;
+	min-width: 400px;
+	padding: 0px;
+	border: 20px solid black;
+}
+/* about me */ 
+
+.h1-tertiary {
+	font-family: "Shadows Into Light", sans-serif;
+    font-size: 75px;
+    text-align: center;
+    padding: 20px;
+    background-image: url("https://user-images.githubusercontent.com/32267807/32007988-c56f0498-b9b3-11e7-88a3-d84077045a2e.jpg"); 
+}
+
+#h2-secondary {
+	font-family: "Shadows Into Light", cursive, sans-serif;
+	font-size: 32px;
+	border-top: 20px;
+
+}
+
+.p1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	position: right;
+	margin: 20px;
+}
+
+
+.profile {
+	max-width: 400px;
+	max-height: 900px;
+	float: left;
+	margin: 30px;
+	padding: 0px;
+	border: 20px solid black;
+
+} 
+
+
+
+
