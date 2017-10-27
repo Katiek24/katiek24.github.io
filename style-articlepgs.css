@@ -28,7 +28,7 @@ a.class1:active {
 
 
 body {
-	background-color: rgba(0,75,150,0.4);
+	background-color: rgba(0,75,150,0.2);
 }
 
 
@@ -85,7 +85,7 @@ ul {
 .h1-secondary {
 	font-family: "Shadows Into Light", sans-serif;
     font-size: 75px;
-    color: rgba(50,15,15,1);
+    color: black;
     text-align: center;
     padding: 25px;
     background-image: url("https://user-images.githubusercontent.com/32267807/31819957-a9b87e9c-b5a7-11e7-836c-f118a4877e8d.jpg");
@@ -103,7 +103,6 @@ h4 {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 20px;
 	margin: 100px;
-    border-radius: 10px;
 }
 
 a.class2:link {
@@ -135,8 +134,18 @@ body {
 
 
 
-.post-images {
- 	max-height: 500px;
+.post-landscape {
+ 	max-width: 50%;
+ 	height: auto;
+	margin-left: 65px;
+	padding: 0px;
+	border: 20px solid black;
+
+ }
+
+ .post-portrait {
+ 	max-width: 28%;
+ 	height: auto;
 	margin-left: 65px;
 	padding: 0px;
 	border: 20px solid black;
@@ -157,19 +166,18 @@ body {
 /* gallery */
 
 .landscape {	
+	max-width: 45%;
+	height: auto;
 	margin: 40px;
-	max-width: 800px;
-	max-height: 400px;
 	padding: 0px;
 	border: 20px solid black;
 
 }
 
 .portrait {
-	margin-left: 125px;
-	margin-right: 60px;
-	max-height: 400px;
-	min-width: 400px;
+	max-width: 30%;
+	height: auto;
+	margin: 25px;
 	padding: 0px;
 	border: 20px solid black;
 }
