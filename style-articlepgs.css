@@ -1,38 +1,59 @@
 /*all pages*/
 
-
-a.class1:link {
-    color: black;
-    text-decoration: none;
-}
-
-a.class1:visited {
-    color: black;
-}
-
-a.class1:hover {
-    color: gray;
-}
-
-a.class1:active {
-    color: black;
-}
-
-.class1 {
+.dropbtn {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 22px;
-	color: black;
-	list-style-type: none;
-	padding: 20px; 
+	font-size: 24px;
+	background-color: transparent;
+	text-shadow:
+   -1px -1px white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white;
+	padding: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline;
+}
+
+.dropdown-content {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: gray
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(0,75,150,0.4);
 }
 
 
-body {
-	background-color: rgba(0,75,150,0.2);
-}
 
-
-/* front page */
+      /* front page */
 
 h1 {
     font-family: "Shadows Into Light", sans-serif;
@@ -43,50 +64,19 @@ h1 {
     -1px 1px 0 white,
      1px 1px 0 white;
     text-align: center;
-    padding-top: 50px;
-    margin-bottom: 50px;
 }
 
 .front-background {
 	    background-image: url("https://user-images.githubusercontent.com/32267807/31503215-c1883d5e-af77-11e7-80ae-2ef80df1ad84.jpg");
         background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: right;  
+        background-size: 100%;  
 }
 
-
-a:link {
-    color: black;
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: gray;
-}
-
-a:active {
-    color: black;
-}
-
-ul {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 32px;
-	color: black;
-	text-align: center;
-	text-decoration: none;
-	list-style-type: none;
-	line-height: 50px;
-	
-}
 
 
 /* posts */
-	
-.h1-secondary {
+
+h2 {
 	font-family: "Shadows Into Light", sans-serif;
     font-size: 75px;
     text-shadow:
@@ -96,14 +86,17 @@ ul {
      1px 1px 0 white;
     text-align: center;
     padding: 25px;
-    background-image: url("https://user-images.githubusercontent.com/32267807/31819957-a9b87e9c-b5a7-11e7-836c-f118a4877e8d.jpg");
-   
+}
+	
+.h2-background {
+	background-image: url("https://user-images.githubusercontent.com/32267807/32178382-37a950f6-bd95-11e7-982e-5043401abb2a.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100%  
 }
 
 h4 {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: 75;
-	color: rgb(50,50,50);
 	text-align: center;
 }
 
@@ -139,7 +132,6 @@ a.class2:active {
 body {
 	background-color: rgba(0,75,150,0.4);
 }
-
 
 
 .post-landscape {
@@ -191,23 +183,16 @@ body {
 }
 /* about me */ 
 
-.h1-tertiary {
-	font-family: "Shadows Into Light", sans-serif;
-    font-size: 75px;
-    text-shadow:
-   -1px -1px white,  
-    1px -1px 0 white,
-    -1px 1px 0 white,
-     1px 1px 0 white;
-    text-align: center;
-    padding: 20px;
-    background-image: url("https://user-images.githubusercontent.com/32267807/32007988-c56f0498-b9b3-11e7-88a3-d84077045a2e.jpg"); 
+.about-background {
+	background-image: url("https://user-images.githubusercontent.com/32267807/32007988-c56f0498-b9b3-11e7-88a3-d84077045a2e.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: 100%;  
 }
 
-#h2-secondary {
+h3 {
 	font-family: "Shadows Into Light", cursive, sans-serif;
-	font-size: 32px;
-	border-top: 20px;
+	font-size: 38px;
+	border-top: 50px;
 
 }
 
