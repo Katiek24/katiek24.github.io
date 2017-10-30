@@ -165,6 +165,7 @@ body {
 
 /* gallery */
 
+
 .landscape {	
 	max-width: 45%;
 	height: auto;
@@ -193,6 +194,7 @@ h3 {
 	font-family: "Shadows Into Light", cursive, sans-serif;
 	font-size: 38px;
 	border-top: 50px;
+	margin-top: 50px;
 
 }
 
