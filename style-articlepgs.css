@@ -37,7 +37,11 @@ body {
 h1 {
     font-family: "Shadows Into Light", sans-serif;
     font-size: 200px;
-    color: black;
+    text-shadow:
+   -1px -1px white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white;
     text-align: center;
     padding-top: 50px;
     margin-bottom: 50px;
@@ -85,7 +89,11 @@ ul {
 .h1-secondary {
 	font-family: "Shadows Into Light", sans-serif;
     font-size: 75px;
-    color: black;
+    text-shadow:
+   -1px -1px white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white;
     text-align: center;
     padding: 25px;
     background-image: url("https://user-images.githubusercontent.com/32267807/31819957-a9b87e9c-b5a7-11e7-836c-f118a4877e8d.jpg");
@@ -186,6 +194,11 @@ body {
 .h1-tertiary {
 	font-family: "Shadows Into Light", sans-serif;
     font-size: 75px;
+    text-shadow:
+   -1px -1px white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white;
     text-align: center;
     padding: 20px;
     background-image: url("https://user-images.githubusercontent.com/32267807/32007988-c56f0498-b9b3-11e7-88a3-d84077045a2e.jpg"); 
