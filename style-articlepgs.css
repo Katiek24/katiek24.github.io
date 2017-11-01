@@ -53,16 +53,23 @@
 
 
 
-      /* front page*/
+      /* front page */
 
+h1 {
+    font-family: "Shadows Into Light", sans-serif;
+    font-size: 200px;
+    text-shadow:
+   -1px -1px white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white;
+    text-align: center;
+}
 
-
-.front-page {
-	background-image: url("https://user-images.githubusercontent.com/32267807/32270374-6183e282-befe-11e7-8800-c60945eeb747.JPG");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.front-background {
+	    background-image: url("https://user-images.githubusercontent.com/32267807/31503215-c1883d5e-af77-11e7-80ae-2ef80df1ad84.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;  
 }
 
 
