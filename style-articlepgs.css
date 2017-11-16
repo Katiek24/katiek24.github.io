@@ -93,6 +93,12 @@ h2 {
 
 }
 
+.post2-background {
+	background: url("https://user-images.githubusercontent.com/32267807/32895446-c72d9ac4-cae8-11e7-895d-4d24751f25bb.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 h4 {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.3vw;
@@ -155,6 +161,15 @@ body {
 	border: 5px solid black;
 
  }
+
+#post-l {
+	max-width: 40%;
+ 	height: 60%;
+	margin-left: 5%;
+	padding: 0px;
+	border: 5px solid black;
+
+}
  
 #lists {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
