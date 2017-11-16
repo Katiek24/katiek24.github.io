@@ -193,7 +193,6 @@ body {
 	max-width: 45%;
 	height: auto;
 	margin: 40px;
-	padding: 0px;
 	border: 5px solid black;
 
 }
@@ -202,9 +201,9 @@ body {
 	max-width: 30%;
 	height: auto;
 	margin: 25px;
-	padding: 0px;
 	border: 5px solid black;
 }
+
 /* about me */ 
 
 .about-background {
@@ -221,21 +220,13 @@ h3 {
 
 }
 
-.p1 {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 1.3vw;
-	position: right;
-	margin: 20px;
-}
-
 
 .profile {
-	max-width: 400px;
-	max-height: 900px;
-	float: left;
-	margin: 30px;
-	padding: 0px;
-	border: 20px solid black;
+	max-width: 25%;
+	max-height: auto;
+	margin: 3%;
+	border: 5px solid black;
+	position: relative;
 
 } 
 
