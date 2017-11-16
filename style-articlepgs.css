@@ -143,7 +143,7 @@ body {
  	height: auto;
 	margin-left: 5%;
 	padding: 0px;
-	border: 20px solid black;
+	border: 5px solid black;
 
  }
 
@@ -152,7 +152,7 @@ body {
  	height: auto;
 	margin-left: 5%;
 	padding: 0px;
-	border: 20px solid black;
+	border: 5px solid black;
 
  }
  
@@ -162,7 +162,12 @@ body {
 	background-color: white; 
 	margin: 5%;
     padding: 30px;
-  	border:20px solid black;
+  	border: 10px solid black;
+}
+
+.article-search {
+	text-align: right;
+
 }
 
 
@@ -174,7 +179,7 @@ body {
 	height: auto;
 	margin: 40px;
 	padding: 0px;
-	border: 20px solid black;
+	border: 5px solid black;
 
 }
 
@@ -183,7 +188,7 @@ body {
 	height: auto;
 	margin: 25px;
 	padding: 0px;
-	border: 20px solid black;
+	border: 5px solid black;
 }
 /* about me */ 
 
