@@ -239,7 +239,7 @@ a.class2:link {
 	 }
 
 		#post-l {
-			max-width: 40%;
+			width: 35%;
 		 	height: 60%;
 			margin-left: 5%;
 			padding: 0px;
@@ -267,6 +267,11 @@ a.class2:link {
 						border: 5px solid black;
 						float: left;
 					} 
+
+					
+
+
+					
 
 
 
