@@ -104,18 +104,21 @@
 	}
 	
 		.h2-background {
+			border: 1px solid black;
 			background: url("https://user-images.githubusercontent.com/32267807/32178382-37a950f6-bd95-11e7-982e-5043401abb2a.jpg");
 		    background-repeat: no-repeat; 
 		    background-size: cover;
 		}
 
 			.post2-background {
+				border: 1px solid black;
 				background: url("https://user-images.githubusercontent.com/32267807/32895446-c72d9ac4-cae8-11e7-895d-4d24751f25bb.jpg");
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
 
 				.about-background {
+					border: 1px solid black;
 					background-image: url("https://user-images.githubusercontent.com/32267807/32007988-c56f0498-b9b3-11e7-88a3-d84077045a2e.jpg"); 
 				    background-repeat: no-repeat; 
 				    background-size: cover; 
@@ -151,9 +154,7 @@
 						    	margin: 3%;
 							}
 
-						body {
-							background-color: rgba(0,75,150,0.4);
-						}
+						
 
 /*links*/
 
