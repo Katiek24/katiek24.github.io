@@ -154,6 +154,16 @@
 						    	margin: 3%;
 							}
 
+								.yuki-background {
+								background: url("https://user-images.githubusercontent.com/32267807/32910085-faf9cef4-cb10-11e7-8f29-0b58db1baf07.jpg");
+					    		background-repeat: no-repeat; 
+						    	border: 1px solid black;
+						    	float: left;
+						    	width: 33.33%;
+						    	padding: 60px;
+						    	margin: 3%;
+							}
+
 						
 
 /*links*/
